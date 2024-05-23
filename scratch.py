@@ -6,8 +6,8 @@ import dotenv
 from itertools import batched
 import time
 
-USERNAME = "just_devs"
-PASSWORD = "pNx7rqzg"
+USERNAME = ""
+PASSWORD = ""
 
 session = scratch3.login(username=USERNAME, password=PASSWORD)
 conn = session.connect_cloud("1025830297")
